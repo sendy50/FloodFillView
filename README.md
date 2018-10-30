@@ -1,5 +1,5 @@
 <!-- Library Logo -->
-<!-- <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true" align="left" hspace="1" vspace="1">-->
+<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true" align="left" hspace="1" vspace="1">
 
 <!-- Buy me a cup of coffe 
 <a href='https://ko-fi.com/A406JCM' style='margin:13px;' target='_blank' align="right"><img align="right" height='36' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f' alt='Buy Me a Coffee at ko-fi.com' /></a>
@@ -8,12 +8,13 @@
 # AndoidAboutUs
 
 
-This is an [**Android About Us**](https://developer.android.com) project. You can buid your own about us screen using this library to make build easily.
+This is a **FloodFillView** project. You can add in Your project and easily usable View. This Library Fill Selcted color in Bitmap That Set in View.
 
+</br>
 </br>
 
 # app
- This library has a lot more customization and features than is able to show here. Please check the sample app.
+ This library has a lot more customization and features like Undo, All Clear Etc. than is able to show here. Please check the sample app.
 
 
 <!--<img src="images/screenshots/dark.jpg" height='auto' width='270'/><img src="images/screenshots/light.jpg" height='auto' width='270'/><img src="images/screenshots/custom.jpg" height='auto' width='270'/>
@@ -38,11 +39,11 @@ allprojects {
 }
 ```
 
-#### Step #2. Add the dependency ([See latest release](https://jitpack.io/#techhuntdevelopers/AndroidAboutUs)).
+#### Step #2. Add the dependency ([See latest release](https://jitpack.io/#sendy50/FloodFillView)).
 
 ```groovy
 dependencies {
-       implementation 'com.github.techhuntdevelopers:AndroidAboutUs:x.y.z'
+       implementation 'com.github.sendy50:FloodFillView:1.0'
 }
 ```
 # Implementation
