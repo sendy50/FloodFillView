@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<integer-array name="mainDrawable">-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+       <!--<item>@drawable/nature_004</item>-->
+    <!--</integer-array>-->
+
+    <!--<string-array name="mainTitle">-->
+        <!--<item>@string/main1</item>-->
+        <!--<item>@string/main2</item>-->
+        <!--<item>@string/main3</item>-->
+        <!--<item>@string/main4</item>-->
+        <!--<item>@string/main5</item>-->
+        <!--<item>@string/main6</item>-->
+        <!--<item>@string/main7</item>-->
+        <!--<item>@string/main8</item>-->
+        <!--<item>@string/main9</item>-->
+        <!--<item>@string/main10</item>-->
+    <!--</string-array>-->
+
+
+    <array name="default_color">
+        <item>@color/tomato</item>
+        <item>@color/tangerine</item>
+        <item>@color/banana</item>
+        <item>@color/basil</item>
+        <item>@color/sage</item>
+        <item>@color/peacock</item>
+        <item>@color/blueberry</item>
+        <item>@color/blue</item>
+        <item>@color/lavender</item>
+        <item>@color/grape</item>
+        <item>@color/flamingo</item>
+        <item>@color/graphite</item>
+        <item>@color/magenta</item>
+        <item>@color/red</item>
+        <item>@color/red_light</item>
+        <item>@color/azure</item>
+        <item>@color/blue_light</item>
+        <item>@color/green</item>
+        <item>@color/bright_pink</item>
+        <item>@color/yellow</item>
+        <item>@color/violet</item>
+        <item>@color/orange</item>
+    </array>
+
+
+</resources>

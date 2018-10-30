@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="azure">#007FFF</color>
+    <color name="banana">#f6bf26</color>
+    <color name="basil">#0b8043</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue_light">#33b5e5</color>
+    <color name="blueberry">#3f51b5</color>
+    <color name="bright_pink">#FF007F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="flamingo">#e67c73</color>
+    <color name="grape">#8e24aa</color>
+    <color name="graphite">#616161</color>
+    <color name="green">#00ff00</color>
+    <color name="lavender">#7986cb</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="orange">#FF7F00</color>
+    <color name="orange_dark">#ff8800</color>
+    <color name="peacock">#039be5</color>
+    <color name="red">#FF0000</color>
+    <color name="red_light">#ff4444</color>
+    <color name="sage">#33b679</color>
+    <color name="tangerine">#f4511e</color>
+    <color name="tomato">#d50000</color>
+    <color name="violet">#7F00FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="gray">#404040</color>
+    <color name="dark_gray">#292929</color>
+    <color name="black">#000000</color>
+    <color name="coffie">#461918</color>
+    <color name="skin">#e9be96</color>
+    <color name="pink_light">#de90db</color>
+    <color name="wood">#a9702a</color>
+    <color name="wood2">#482903</color>
+    <color name="white">#ffffff</color>
+    <color name="whitee">#fcfcfc</color>
+    <color name="transparent">#00000000</color>
+</resources>
