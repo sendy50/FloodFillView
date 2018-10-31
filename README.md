@@ -50,46 +50,50 @@ dependencies {
 
 Create a **AboutView** instance with **AboutBuilder**.
 ```java
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
+// FindViewById of FloodFillView
+ FloodFillView floodFillView = (FloodFillView) findViewById(R.id.flood_fill_view);
+ floodFillView.setMaxZoom(15);
+ 
+ //init Bitmap
+ BitmapFactory.Options o = new BitmapFactory.Options();
+ o.inScaled = false;
+ 
+ //for Drawable
+ originalBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.animal10, o);
+ 
+ //for Image Path
+ originalBitmap = BitmapFactory.decodeFile(ImagePath, o);
+ 
+ floodFillView.setImageBitmap(originalBitmap);
+ currentBitmap = originalBitmap.copy(originalBitmap.getConfig(), true);
+ 
+ //OnTouch 
+ floodFillView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_UP:
+                        currentX = (int) event.getX();
+                        currentY = (int) event.getY();
 
-    AboutBuilder builder = AboutBuilder.with(MainActivity.this)
-                .setAppIcon(R.mipmap.ic_launcher)
-                .setAppName(R.string.app_name)
-                .setPhoto(R.mipmap.profile_picture)
-                .setCover(R.mipmap.profile_cover)
-                .setLinksAnimated(true)
-                .setDividerDashGap(13)
-                .setName("TechHunt Developers")
-                .setSubTitle("Android Appilication Developer")
-                .setLinksColumnsCount(4)
-                .setBrief("Develop Innovative")
-                .addGooglePlayStoreLink("7399966994559253451")
-                .addGitHubLink("techhuntdevelopers")
-                .addFacebookLink("techhuntdevelopers")
-                .addInstagramLink("techhunt_developers")
-                .addEmailLink("techhunt00@gmail.com")
-                .addWhatsappLink("Thoriya Prahalad", "+918155851357")
-                .addFiveStarsAction()
-                .addMoreFromMeAction("TechHunt Developers")
-                .setVersionNameAsAppSubTitle()
-                .addShareAction(R.string.app_name)
-                .addUpdateAction()
-                .setActionsColumnsCount(2)
-                .addFeedbackAction("techhunt00@gmail.com")
-                .addIntroduceAction((Intent) null)
-                .addHelpAction((Intent) null)
-                .addChangeLogAction((Intent) null)
-                .addRemoveAdsAction((Intent) null)
-                .addDonateAction((Intent) null)
-                .setWrapScrollView(true)
-                .setShowAsCard(true);
-
-     AboutView view = builder.build();
-
-     about.addView(view); //about is Layout
-}
+                        float devVsImgRatio = mIvImage.drawableWidthForDeviceRelated / originalBitmap.getWidth();
+                        PointF point = mIvImage.transformCoordTouchToBitmap(event.getX(), event.getY(), true);
+                        currentX = (int) (point.x / devVsImgRatio);
+                        currentY = (int) (point.y / devVsImgRatio);
+                        Bitmap bitmap = currentBitmap;
+                       
+					    //mSelectedColor = init your Color..
+					    floodFillView.FloodFill(bitmap, currentX, currentY, mSelectedColor, Color.BLACK, 0);
+						
+						//After Set Bitmap to floodFillView
+                        floodFillView.setImageBitmap(bitmap);
+                       
+					   break;
+                }
+                return true;
+            }
+        });
+		
 ```
 
 
