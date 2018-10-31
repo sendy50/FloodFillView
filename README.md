@@ -50,7 +50,7 @@ dependencies {
 
 Create a **AboutView** instance with **AboutBuilder**.
 ```java
-// FindViewById of FloodFillView
+ // FindViewById of FloodFillView
  FloodFillView floodFillView = (FloodFillView) findViewById(R.id.flood_fill_view);
  floodFillView.setMaxZoom(15);
  
@@ -94,8 +94,27 @@ Create a **AboutView** instance with **AboutBuilder**.
             }
         });
 		
+		
+ //For Redo
+ Bitmap bitmapo = currentBitmap;
+ floodFillView.Redu(bitmapo, Color.WHITE, Color.BLACK, 0);
+ floodFillView.setImageBitmap(bitmapo);
+ 
+ //For All Clear
+ Bitmap bitmapo = currentBitmap;
+ floodFillView.AllClear(bitmapo);
+ floodFillView.setImageBitmap(bitmapo);
+ 
+ 
+ //For ZOOM IN and OUT
+ floodFillView.setZoom(floodFillView.getCurrentZoom() - 1);
+ floodFillView.setZoom(floodFillView.getCurrentZoom() + 1);
+ 
+ //For Eraser
+ mSelectedColor = Color.WHITE;
+		
 ```
 
 
 # Credit 
-[Júnior Vansuita](https://github.com/jrvansuita/MaterialAbout)
+[Lakmal Weerasekara](https://github.com/lakmalz)
