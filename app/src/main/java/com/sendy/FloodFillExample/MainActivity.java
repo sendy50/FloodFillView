@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap bitmapo = currentBitmap;
                 mIvImage.Redu(bitmapo, Color.WHITE, Color.BLACK, 0);
                 mIvImage.setImageBitmap(bitmapo);
+
             }
         });
     }
