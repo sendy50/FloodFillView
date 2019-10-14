@@ -45,7 +45,7 @@
             android:id="@+id/btn_redo"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
-            android:text="Redo"
+            android:text="Rendo"
             android:background="#d0f9492a"
             android:layout_marginLeft="12dp"
             android:layout_height="48dp"/>

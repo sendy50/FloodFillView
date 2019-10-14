@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk",
+    "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/Examplesdemos/FloodFillView/floodfillviewlibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "jnibitmap-debug-arm64-v8a": {
+      "artifactName": "jnibitmap",
+      "buildCommand": "E:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/Examplesdemos/FloodFillView/floodfillviewlibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\lib D:/Examplesdemos/FloodFillView/floodfillviewlibrary/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libjnibitmap.so",
+      "abi": "arm64-v8a",
+      "output": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libjnibitmap.so"
+    }
+  }
+}

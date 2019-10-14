@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk",
+    "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/Examplesdemos/FloodFillView/floodfillviewlibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "E:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/Examplesdemos/FloodFillView/floodfillviewlibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jnibitmap-debug-x86": {
+      "buildCommand": "E:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/Examplesdemos/FloodFillView/floodfillviewlibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\lib D:/Examplesdemos/FloodFillView/floodfillviewlibrary/build/intermediates/ndkBuild/debug/obj/local/x86/libjnibitmap.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "jnibitmap",
+      "files": [
+        {
+          "src": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\jnibitmap.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/sdk/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -IE:/sdk/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -ID:/Examplesdemos/FloodFillView/floodfillviewlibrary/src/main/jni -std\u003dc++11 -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libjnibitmap.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "E:\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\Examplesdemos\\FloodFillView",
+      "sdkFolder": "E:\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates",
+      "gradleModulePathName": ":floodfillviewlibrary",
+      "moduleRootFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary",
+      "makeFile": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "D:\\Examplesdemos\\FloodFillView\\.cxx",
+      "cxxFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx",
+      "ndkFolder": "E:\\sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug\\x86",
+  "jsonFile": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\cxx\\debug\\x86",
+  "objFolder": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86",
+  "buildCommandFile": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug\\x86\\build_command.txt",
+  "buildOutputFile": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug\\x86\\build_output.txt",
+  "modelOutputFile": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug\\x86\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\Examplesdemos\\FloodFillView\\floodfillviewlibrary\\.cxx\\ndkBuild\\debug\\x86\\compile_commands.json"
+}
